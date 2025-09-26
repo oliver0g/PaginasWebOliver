@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background 0.5s ease;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  font-size: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.city-search {
+  margin-top: 20px;
+}
+
+.city-search input {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.city-search button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Fondos dinámicos */
+.sunny {
+  background: linear-gradient(to top, #87CEFA, #fff);
+}
+.rainy {
+  background: linear-gradient(to top, #4e5d6c, #6b7a8f);
+}
+.cloudy {
+  background: linear-gradient(to top, #b0c4de, #d3d3d3);
+}
+.snowy {
+  background: linear-gradient(to top, #ffffff, #dff0ff);
+}

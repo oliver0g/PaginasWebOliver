@@ -1,0 +1,98 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('fondoLogin.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Caja de login */
+.box {
+  background: rgba(0, 0, 0, 0.2); 
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Encabezado */
+.top-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.top-header span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.top-header header {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Campos */
+.input-field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.input-field span {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-field .input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Botón */
+.input-field .submit {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.input-field .submit:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Parte inferior */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+  margin-top: 10px;
+}
+
+.bottom a {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}
